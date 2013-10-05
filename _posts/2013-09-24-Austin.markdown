@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Austin, TX"
+date:   2013-09-24
+categories: jekyll update
+---
+
+I'm moving to Austin on Sunday for <a href="http://www.themakersquare.com/">MakerSquare</a>. It doesn't start until November 10th, however, I spend most of my days studying web development and Austin seems like the optimal place to study, meet web people..... <stop>, then study some more. 
+
+Is there a more universally loved place than Austin? I feel like people are programmed to say you're going to love it there! Austin is amazing! I'm pretty sure I love Austin too. See you soon!
+
+
+		

@@ -1,0 +1,4 @@
+name: Matt Larsh
+markdown: redcarpet
+pygments: true
+excerpt_separator: <stop>

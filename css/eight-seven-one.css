@@ -1,0 +1,427 @@
+@media (min-width: 590px){
+	.posts-wrap p{
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 871px){
+	#home{
+ color: white;
+ font-weight: 800;
+ width: 4em;
+ font-size: 3em;
+ margin: .8em auto;
+}
+
+
+
+
+
+
+	header{
+  float: left;
+  width: 19.25em;
+  margin: 2em 1em 0 2em;
+  height: 14em;
+	}
+	.name-stack{
+		font-size: 3.3em;
+		top: 0;
+	}
+  .pic{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #0f9d66, 0 1px 20px #333333;
+  position: absolute;
+  top: .5em;
+  right: 1.45em;
+  background: url(../images/loginPic.jpg) center center no-repeat;
+}
+.pic:hover{
+  background: url(../images/line-art.jpg) center center no-repeat;
+  box-shadow: 0 0 2px 3px #eae8e8, 0 1px 20px #333333 inset;
+}
+/*.descript-group{
+  width: 11em;
+  position: absolute;
+  bottom: 4.5em;
+  left: 3.25em;
+  
+}*/
+
+.maker-stack{
+  font-size: 2.5em;
+  bottom: 1.5em;
+	left: 1.15em;
+}
+
+.maker-stack a:hover{
+  color: white;
+}
+.posts-wrap{
+  width: 45%;
+  height: 13.645em;
+  float: right;
+  margin: 2em 2em 0 1em;
+}
+
+.m-char1:hover{
+ color: white;
+}
+.m-char2:hover{
+ color: white;
+}
+.m-char3:hover{
+ color: white;
+}
+.m-char4:hover{
+ color: white;
+}
+.m-char5:hover{
+ color: white;
+}
+.m-char6:hover{
+ color: white;
+}
+.m-char7:hover{
+ color: white;
+}
+.m-char8:hover{
+ color: white;
+}
+.m-char9:hover{
+ color: white;
+}
+.m-char10:hover{
+ color: white;
+}
+.m-char11:hover{
+ color: white;
+}
+.posts-wrap h1 a{
+	font-size: 1.8em;
+}
+.posts-wrap h2 {
+font-size: 1em;
+}
+	.posts-wrap p{
+		font-size: 1.25em;
+	}
+.single-post-wrap{
+  width: 65%;
+
+}
+
+.single-post-wrap h1 {
+font-size: 1.8em;
+}
+.single-post-wrap h2 {
+font-size: 1.05em;
+}
+.single-post-wrap p {
+font-size: 1.3em;
+}
+/**************************/
+/* Tweet Spark! */
+/************************/
+.social{
+	background: red;
+}
+
+.tweet:hover{
+  background: url(../images/tweet-red.png);
+}
+
+.tweet-inner-spark{
+  position: relative;
+}
+.tweet-spark-holder{
+   position: relative;
+   float: left;
+   background: green;
+  }
+  .tweet-inner-spark a {
+  margin: 2em 0 0 0;
+  background: url(../images/tweet-white.png) no-repeat;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: -17.5em;
+  left: -18.5em;
+  transition-property: color;
+  transition-duration: 1s;
+
+}
+.tweet-inner-spark a span {
+    position: absolute;
+    pointer-events: none;
+    top: 1.1em;
+    width: 4250%;
+    height: 2px;
+    margin-bottom: 3px;
+    left: 0;
+    background: -webkit-gradient(linear,  0% 50%,  100% 50%,  color-stop(0%,  #55EAF6),  color-stop(5%,  #55EAF6),  color-stop(5%,  rgba(255, 255, 255, 0.25)),  color-stop(100%,  rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background-position: 100% 0;
+    -webkit-background-size: 200% 100%;
+    -moz-background-size: 200% 100%;
+    -o-background-size: 200% 100%;
+    background-size: 200% 100%;
+    -webkit-transition: background 0s linear;
+    -moz-transition: background 0s linear;
+    -o-transition: background 0s linear;
+    transition: background 0s linear;
+}
+.tweet-inner-spark a:hover, .link-list a:focus {
+    color: #F90D02;
+}
+.tweet-inner-spark a:hover span, .link-list a:focus span {
+    background-position: -100% 0;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+/***********************/
+/* Git Spark!!! */
+/***********************/
+.git:hover{
+  background: url(../images/github-red.png);
+}
+.git-inner-spark{
+  position: relative;
+}
+.git-spark-holder{
+   position: relative;
+   float: left;
+   background: green;
+  }
+  .git-inner-spark a {
+  margin: 2em 0 0 0;
+  background: url(../images/github-white.png) no-repeat;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: -18.15em;
+  left: -14.45em;
+
+}
+.git-inner-spark a span {
+    position: absolute;
+    pointer-events: none;
+    top: 1.1em;
+    width: 4250%;
+    height: 2px;
+    margin-bottom: 3px;
+    left: 1em;
+    background: -webkit-gradient(linear,  0% 50%,  100% 50%,  color-stop(0%,  #55EAF6),  color-stop(5%,  #55EAF6),  color-stop(5%,  rgba(255, 255, 255, 0.25)),  color-stop(100%,  rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background-position: 100% 0;
+    -webkit-background-size: 200% 100%;
+    -moz-background-size: 200% 100%;
+    -o-background-size: 200% 100%;
+    background-size: 200% 100%;
+    -webkit-transition: background 0s linear;
+    -moz-transition: background 0s linear;
+    -o-transition: background 0s linear;
+    transition: background 0s linear;
+}
+.git-inner-spark a:hover, .link-list a:focus {
+    color: #F90D02;
+}
+.git-inner-spark a:hover span, .link-list a:focus span {
+    background-position: -100% 0;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+/**************************/
+/* Contact Spark! */
+/************************/
+.contact:hover{
+  background: url(../images/bubble-red.png) no-repeat;
+}
+.contact-inner-spark{
+  position: relative;
+}
+.contact-spark-holder{
+   position: relative;
+   float: left;
+   background: green;
+  }
+  .contact-inner-spark a {
+  margin: 2em 0 0 0;
+  background: url(../images/bubble-white.png) no-repeat;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: -17.5em;
+  left: -9em;
+  transition-property: color;
+  transition-duration: 1s;
+
+}
+.contact-inner-spark a span {
+    position: absolute;
+    pointer-events: none;
+    top: 1.1em;
+    width: 4250%;
+    height: 2px;
+    margin-bottom: 3px;
+    left: 0;
+    background: -webkit-gradient(linear,  0% 50%,  100% 50%,  color-stop(0%,  #55EAF6),  color-stop(5%,  #55EAF6),  color-stop(5%,  rgba(255, 255, 255, 0.25)),  color-stop(100%,  rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background-position: 100% 0;
+    -webkit-background-size: 200% 100%;
+    -moz-background-size: 200% 100%;
+    -o-background-size: 200% 100%;
+    background-size: 200% 100%;
+    -webkit-transition: background 0s linear;
+    -moz-transition: background 0s linear;
+    -o-transition: background 0s linear;
+    transition: background 0s linear;
+}
+.contact-inner-spark a:hover, .link-list a:focus {
+    color: #F90D02;
+}
+.contact-inner-spark a:hover span, .link-list a:focus span {
+    background-position: -100% 0;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+/***********/
+/* index posts Spark /*
+/************/
+.index-posts-inner-spark{
+  position: relative;
+  top: -.25em;
+  left: 0em;
+}
+.index-posts-holder{
+   position: relative;
+   width: 14em;
+  }
+  .index-posts-inner-spark a {
+    color: #18F09C;
+    font-size: 1.7em;
+    font-weight: 800;
+
+}
+.index-posts-inner-spark a span {
+    position: absolute;
+    pointer-events: none;
+    top: .75em;
+    width: 395%;
+    height: 5px;
+    margin-bottom: 3px;
+    left: 0;
+    background: -webkit-gradient(linear,  0% 50%,  100% 50%,  color-stop(0%,  #ffffff),  color-stop(5%,  #ffffff),  color-stop(5%,  rgba(255, 255, 255, 0.25)),  color-stop(100%,  rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(left,  #F90D02, #F90D02 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background: linear-gradient(left,  #ffffff, #ffffff 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0));
+    background-position: 100% 0;
+    -webkit-background-size: 200% 100%;
+    -moz-background-size: 200% 100%;
+    -o-background-size: 200% 100%;
+    background-size: 200% 100%;
+    -webkit-transition: background 0s linear;
+    -moz-transition: background 0s linear;
+    -o-transition: background 0s linear;
+    transition: background 0s linear;
+}
+.index-posts-inner-spark a:hover, .link-list a:focus {
+    color: #F90D02;
+}
+.index-posts-inner-spark a:hover span, .link-list a:focus span {
+    background-position: -100% 0;
+    -webkit-transition: background 1s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 1s;
+}
+
+}
+
+
+/*********************************************************************************/
+
+@media (min-width: 975px){
+		.posts-wrap {
+width: 50%;
+}
+
+}
+
+@media (min-width: 1080px){
+.posts-wrap {
+width: 55%;
+}
+.single-post-wrap {
+width: 58%;
+
+}
+}
+
+@media (min-width: 1200px){
+.posts-wrap {
+width: 58%;
+}
+}
+
+@media (min-width: 1410px){
+header {
+
+width: 24em;
+
+height: 17em;
+}
+.posts-wrap {
+width: 60%;
+height: 10em;
+}
+.maker-stack {
+font-size: 3.4em;
+bottom: 1.2em;
+left: 1em;
+}
+.descript-group {
+font-size: 1.3em;
+margin: 5.3em 0 0 5em;
+}
+.name-stack {
+font-size: 4.2em;
+}
+.tweet-inner-spark a {
+
+bottom: -20.5em;
+left: -19.8em;
+
+}
+.git-inner-spark a {
+bottom: -21em;
+left: -15.75em;
+}
+.contact-inner-spark a {
+bottom: -20.5em;
+left: -10.3em;
+
+}
+}
+
+
+
+

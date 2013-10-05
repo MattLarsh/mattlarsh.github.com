@@ -1,0 +1,93 @@
+---
+layout: default
+title: Matt Larsh
+---
+
+
+<header class="cf">
+	<h1 class="name-stack">
+		<a href="/"><span class="char1">M</span></a>
+		<a href="/"><span class="char2">a</span></a>
+		<a href="/"><span class="char3">t</span></a>
+		<a href="/"><span class="char4">t</span></a>
+		<a href="/"><span class="char5">L</span></a>
+		<a href="/"><span class="char6">a</span></a>
+		<a href="/"><span class="char7">r</span></a>
+		<a href="/"><span class="char8">s</span></a>
+		<a href="/"><span class="char9">h</span></a>
+	</h1>
+	<a href="/" class="line-pic pic"></a>
+
+	 	
+ 	<div class="descript-group">
+		    Future Student at
+	</div>		
+			<div class="maker-stack">
+
+	 			<a href="http://www.themakersquare.com/"><span class="m-char1">M</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char2">a</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char3">k</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char4">e</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char5">r</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char6">S</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char7">q</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char8">u</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char9">a</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char10">r</span></a>
+	 			<a href="http://www.themakersquare.com/"><span class="m-char11">e</span></a>
+			</div>
+	
+</header>
+
+<div class="social">
+ 		<div class="tweet-spark-holder">
+ 	 		<div class="tweet-inner-spark">
+ 				<a href="https://twitter.com/LarshMatt" class="tweet"><span></span></a>
+ 			 </div>
+  	</div>
+
+		<div class="git-spark-holder">
+ 	 	  <div class="git-inner-spark">
+        <a href="https://github.com/MattLarsh" class="git"><span></span></a>
+      </div>
+    </div>
+
+
+		<div class="contact-spark-holder">
+ 	 	  <div class="contact-inner-spark">
+        <a href="http://localhost:4000/contact"class="contact" title="contact"><span></span></a>
+      </div>
+    </div>
+   
+
+ 	</div>
+
+
+
+
+<ul>
+ 	{% for post in site.posts limit: 10 %}
+ 	<li>
+ 		<div class="posts-wrap cf">
+
+			<div class="index-posts-holder">
+ 	 	  	<h1 class="index-posts-inner-spark">
+ 				<a href="{{ post.url }}">{{ post.title }}<span></span></a>
+ 				</h1>
+ 			</div>
+
+
+ 					<h2>{{ post.date | date_to_string }}</h2>
+ 					<p>{{ post.excerpt }}</p>
+
+
+ 	</li>
+ 			{% endfor %}
+
+ 		</div>
+</ul>
+
+
+
+
+
